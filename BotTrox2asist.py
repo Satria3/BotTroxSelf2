@@ -10,15 +10,15 @@ from gtts import gTTS
 import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,os,subprocess,requests,tempfile
 
 cl = LINETCR.LINE()
-cl.login(token="Ex8Wb7NqLCci65IVMi80.fGIUiExEjuE1/OChSHYIia.4yuljlvd9DEZmywiesiZxk5Glt6U5mDw6aAOSZp/5Qw=")
+cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="Ex8Wb7NqLCci65IVMi80.fGIUiExEjuE1/OChSHYIia.4yuljlvd9DEZmywiesiZxk5Glt6U5mDw6aAOSZp/5Qw=")
+ki.login(qr=True)
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
-ki2.login(token="Ex8Wb7NqLCci65IVMi80.fGIUiExEjuE1/OChSHYIia.4yuljlvd9DEZmywiesiZxk5Glt6U5mDw6aAOSZp/5Qw=")
+ki2.login(qr=True)
 ki2.loginResult()
 
 print "🇲🇨⊰์◉⊱B❂TT❂X B❂T⊰์◉⊱🇲🇨\nSELAMAT MENGGUNAKAN"
